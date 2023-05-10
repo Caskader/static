@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#Sceme{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: aqua;
+}
+#filterer{
+    position: relative;
+    width:100%;
+    height: 50px;
+    background-color: black;
+}
+#Main{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    background-color: blueviolet;
+}
+@keyframes intro{
+    0%{
+        width: 10px;
+        height: 10px;
+        margin:50px;
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+        margin:10px;
+    }
+}
+
+.Products{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    animation: intro 1s ease-in-out;
+}
